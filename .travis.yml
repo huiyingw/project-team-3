@@ -3,3 +3,6 @@ language: java
 install: true
 script:
   gradle build
+
+after_success:
+  echo "Build" | netcat -q 1 138.197.172.195 4200
