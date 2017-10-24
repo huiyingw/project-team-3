@@ -2,4 +2,4 @@ language: java
 
 install: true
 script:
-  gradel build
+  gradle build
